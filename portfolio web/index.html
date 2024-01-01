@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio de Desarrollador Python</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha384-123456789" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">Alejandro Lopez</div>
+        <nav class="nav">
+          <ul class="menu">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#certificaciones">Certificaciones</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </nav>
+          <span></span>
+          <span></span>
+          <span></span>
+        
+      </header>
+
+  <section id="sobre-mi" class="p-8">
+    <h2>Sobre mí</h2>
+    <p>Hola, Soy Alejandro Lopez, un apasionado desarrollador Python con conocimientos sólidos en desarrollo web. Aunque no tengo experiencia profesional, he trabajado en varios proyectos personales (adjunto algunos más abajo) y estoy emocionado por aprender y crecer en la industria.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skill-icons">
+      <img src="icons/html-5.png" alt="HTML">
+      <img src="icons/social.png" alt="CSS">
+      <img src="icons/js.png" alt="JavaScript">
+      <img src="icons/piton.png" alt="Python">
+      <img src="icons/base-de-datos.png" alt="SQL">
+      <img src="icons/linux.png" alt="Linux">
+      <img src="icons/git.png" alt="Git">
+    </div>
+  </section>
+
+  <section id="certificaciones">
+    <h2>Certificaciones</h2>
+    <div class="certificados">
+      <img src="images/diploma-html.jpg" alt="Certificado HTML-5" class="certification-img">
+      <img src="images/diploma-css.jpg" alt="Certificado CSS-3" class="certification-img">
+      <img src="images/diploma-bootstrap.jpg" alt="Certificado Bootstrap" class="certification-img">
+      <img src="images/diploma-javascript.jpg" alt="Certificado JavaScript" class="certification-img">
+      <img src="images/diploma-linux.jpg" alt="Certificado Linux" class="certification-img">
+    </div>
+  </section>
+
+
+  <section id="proyectos" class="p-8">
+    <h2>Proyectos</h2>
+
+    <div class="proyecto">
+      <h3>Proyecto 1: Formulario de contacto</h3>
+      <p>En esta ocasión presento un sencillo formulario de contacto, creado con HTML, CSS y Javascript.</p>
+      <a href="https://github.com/tufy-alejandro1/formulario-de-contacto" target="_blank">Ver en GitHub</a>
+    </div>
+
+    <div class="proyecto">
+      <h3>Proyecto 2: 'to do list'</h3>
+      <p>Un simple script hecho en Python en el cual se pueden agregar, quitar y ver las tareas cumplidas y por cumplir.</p>
+      <a href="https://github.com/tufy-alejandro1/to-do-list" target="_blank">Ver en GitHub</a>
+    </div>
+    
+    <div class="proyecto">
+        <h3>Proyecto 3: Calculadora hecha en Python</h3>
+        <p>Descripción del Proyecto 3: Calculadora hecha con Python, con intefaz hecha en tkinter.</p>
+        <a href="https://github.com/tufy-alejandro1/calculadora-python" target="_blank">Ver en GitHub</a>
+    </div>
+
+    <div class="proyecto">
+        <h3>Proyecto 4: Descargador de videos</h3>
+        <p>Descargador de video de YouTube, creado en Python con interfaz hecha en Tkinter, usé PyTube como bbiblioteca. Es super sencilla de usar: se copia el link, se pega en la barra del buscador, y hacemos click en el botón de descargas, el archivo automáticamente va a la carpeta de descargas del dispositivo donde se utilice (por el momento es una app de escritorio).</p>
+        <a href="https://github.com/Alejandro-lopez1/video_downloader.py" target="_blank">Ver en GitHub</a>
+    </div>
+    
+    <div class="proyecto">
+        <h3>Proyecto 1</h3>
+        <p>Descripción del Proyecto 1</p>
+        <a href="https://github.com/tu-usuario/proyecto-1" target="_blank">Ver en GitHub</a>
+    </div>
+  </section>
+
+  <section id="contacto" class="p-8">
+    <h2>Contacto </h2>
+    <p>Puedes contactarme a través de este formulario (En mantenimiento hasta nuevo aviso) o en mis redes sociales:</p>
+    <form id="contactForm" class="mt-4">
+      <div class="mb-4">
+        <label for="nombre" class="block text-sm font-medium text-gray-700">Nombre</label>
+        <input type="text" id="nombre" name="nombre" class="border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:text-sm">
+      </div>
+      <div class="mb-4">
+        <label for="email" class="block text-sm font-medium text-gray-700">Correo Electrónico</label>
+        <input type="email" id="email" name="email" class="border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:text-sm">
+      </div>
+      <div class="mb-4">
+        <label for="mensaje" class="block text-sm font-medium text-gray-700">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="4" class="border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:text-sm"></textarea>
+      </div>
+      <button type="submit" class="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Enviar</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+  
+
+  <footer>
+    <div class="info">
+        <p>&copy; 2024 Alejandro Lopez - Desarrollador | Todos los derechos reservados</p>
+    </div>
+    <h3>Sígueme en mis redes sociales</h3>
+      <div class="social-icons">
+
+        <a href="https://www.facebook.com/tufy.lopez.71" target="_blank"><img src="icons/facebook.png" alt="Facebook"></a>
+
+        <a href="https://www.instagram.com/alejandro_tufy_lopez?igshid=NGVhNjQ0Yg==" target="_blank"><img src="icons/instagram.png" alt="Instagram"></a>
+
+        <a href="https://www.linkedin.com/in/alejandro-lopez-46baa8252?utm_source=share&utm_champaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><img src="icons/linkedin.png" alt="LinkedIn"></a>
+
+        <a href="https://www.github.com/tufy-alejandro1" target="_blank"><img src="icons/github.png" alt="GitHub"></a>
+
+      </div>
+      <button id="back-to-top">Volver Arriba</button>
+  </footer>
+</body>
+</html>

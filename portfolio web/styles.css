@@ -1,0 +1,215 @@
+/* Estilos generales que se aplicarán a todos los tamaños de pantalla */
+
+/* Media query para pantallas más pequeñas, como teléfonos móviles */
+@media (max-width: 767px) {
+  /* Estilos específicos para pantallas más pequeñas */
+}
+
+/* Media query para tabletas */
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Estilos específicos para tabletas */
+}
+
+/* Media query para pantallas más grandes, como computadoras de escritorio */
+@media (min-width: 992px) {
+  /* Estilos específicos para pantallas más grandes */
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f4f9;
+  }
+  header {
+    background-color: #3b82f6;
+    color: #fff;
+    padding: 1.5rem 0;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+  }
+  main {
+    padding: 2rem 0;
+  }
+  section {
+    margin-bottom: 2rem;
+  }
+  .bg-project {
+    background-color: #93c5fd;
+  }
+  .project-text {
+    color: #1e3a8a;
+  }
+  
+  #contacto {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #contacto h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  #contacto p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  #contactForm {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  #contactForm label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #contactForm input, #contactForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #contactForm button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #3b82f6;
+    color: #fff;
+    padding: 1.5rem 0;
+  }
+
+/* Estilos generales del header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  /* Estilos del menú hamburguesa */
+  .menu-toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+  }
+  
+  .menu-toggle span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+  }
+  
+  /* Estilos del menú desplegable */
+  .nav {
+    display: flex;
+  }
+  
+  .menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-right: 20px;
+  }
+  
+  /* Estilos del botón claro/oscuro */
+  
+  #back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+ 
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.social-icons img {
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+}
+
+.info {
+    margin-bottom: 10px;
+}
+
+#skills {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.skill-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.skill-icons img {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+.certificados {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.certification-img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
